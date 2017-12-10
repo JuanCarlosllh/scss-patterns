@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nuxt -s",
     "build": "nuxt build --spa",
-    "deploy": "npm run build & push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "normalize.css": "^7.0.0",
