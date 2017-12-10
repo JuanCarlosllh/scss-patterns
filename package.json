@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nuxt -s",
-    "build": "nuxt build --spa",
-    "deploy": "DEPLOY_ENV=GH_PAGES push-dir --dir=dist --branch=gh-pages --cleanup"
+    "build": "DEPLOY_ENV=GH_PAGES nuxt build --spa",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "normalize.css": "^7.0.0",
