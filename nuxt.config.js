@@ -23,5 +23,6 @@ module.exports = {
   ],
   plugins: [
     { src: '~/plugins/typography.js', ssr: false }
-  ]
+  ],
+  ...routerBase
 }
