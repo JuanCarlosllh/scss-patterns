@@ -1,3 +1,10 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/juancarlosllh.github.io/'
+  }
+} : {}
+
+
 module.exports = {
   build: {
     extend (config, { dev, isClient }) {
